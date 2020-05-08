@@ -32,7 +32,9 @@ static NSString * const kImagePath = @"poster_path";
 - (instancetype)initWithDictionary:(NSDictionary<NSString *, id> *)resultsDictionary
 {
     NSString *title = resultsDictionary[kTitle];
-    NSDecimalNumber * rating = resultsDictionary[kRating];
+    NSDecimalNumber *rating = resultsDictionary[kRating];
+    //NSDecimalNumber *behavior = [NSDecimalNumberHandler decimalNumberHandlerWithRoundingMode:NSRoundPlain scale:-1 raiseOnExactness:NO raiseOnOverflow:YES raiseOnUnderflow:NO raiseOnDivideByZero:NO];
+    //NSDecimalNumber *ratingRounded = [rating decimalNumberByRoundingAccordingToBehavior:behavior];
     NSString *overview = resultsDictionary[kOverview];
     NSString *imagePath = resultsDictionary[kImagePath];
     
