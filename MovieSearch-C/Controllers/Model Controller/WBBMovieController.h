@@ -7,10 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "WBBMovie.h"
+#import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface WBBMovieController : NSObject
+
++ (void)fetchMoviesForSearchTerm:(NSString *)searchTerm completion:(void (^) (NSArray<WBBMovie *> * _Nullable))completion;
+
++ (void)fetchImageForImagePath:(NSString *)imagePath completion:(void (^) (UIImage * _Nullable))completion;
 
 @end
 
