@@ -68,6 +68,12 @@
                                         <constraint firstItem="Sal-md-fMg" firstAttribute="top" secondItem="EOQ-x9-NtW" secondAttribute="top" constant="8" id="qMN-Jh-wLH"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="movieImageView" destination="ghV-y1-otv" id="R4D-Pp-Uxu"/>
+                                    <outlet property="movieOverviewLabel" destination="riN-io-lfm" id="G5q-DY-6eR"/>
+                                    <outlet property="movieRatingLabel" destination="oGf-tE-t2Q" id="f9M-G1-mwC"/>
+                                    <outlet property="movieTitleLabel" destination="6fV-gB-5FC" id="7vw-QI-j4U"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
