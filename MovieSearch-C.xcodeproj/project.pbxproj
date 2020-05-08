@@ -13,6 +13,10 @@
 		78B800222465AC4A00F05FE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78B800212465AC4A00F05FE4 /* Assets.xcassets */; };
 		78B800252465AC4A00F05FE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78B800232465AC4A00F05FE4 /* LaunchScreen.storyboard */; };
 		78B800282465AC4A00F05FE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B800272465AC4A00F05FE4 /* main.m */; };
+		78B800372465AFEA00F05FE4 /* WBBMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B800362465AFEA00F05FE4 /* WBBMovie.m */; };
+		78B8003A2465B04400F05FE4 /* WBBMovieController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B800392465B04400F05FE4 /* WBBMovieController.m */; };
+		78B8003D2465B07700F05FE4 /* MovieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B8003C2465B07700F05FE4 /* MovieTableViewController.swift */; };
+		78B8003F2465B0EA00F05FE4 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B8003E2465B0EA00F05FE4 /* MovieTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,13 @@
 		78B800242465AC4A00F05FE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78B800262465AC4A00F05FE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78B800272465AC4A00F05FE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		78B800352465AFEA00F05FE4 /* WBBMovie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBBMovie.h; sourceTree = "<group>"; };
+		78B800362465AFEA00F05FE4 /* WBBMovie.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBBMovie.m; sourceTree = "<group>"; };
+		78B800382465B04400F05FE4 /* WBBMovieController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBBMovieController.h; sourceTree = "<group>"; };
+		78B800392465B04400F05FE4 /* WBBMovieController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBBMovieController.m; sourceTree = "<group>"; };
+		78B8003B2465B07700F05FE4 /* MovieSearch-C-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MovieSearch-C-Bridging-Header.h"; sourceTree = "<group>"; };
+		78B8003C2465B07700F05FE4 /* MovieTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewController.swift; sourceTree = "<group>"; };
+		78B8003E2465B0EA00F05FE4 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				78B8001E2465AC4A00F05FE4 /* Main.storyboard */,
+				78B8003E2465B0EA00F05FE4 /* MovieTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -93,6 +105,8 @@
 		78B800302465AC7F00F05FE4 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				78B800352465AFEA00F05FE4 /* WBBMovie.h */,
+				78B800362465AFEA00F05FE4 /* WBBMovie.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -116,6 +130,8 @@
 		78B800332465AC9600F05FE4 /* View Controller */ = {
 			isa = PBXGroup;
 			children = (
+				78B8003C2465B07700F05FE4 /* MovieTableViewController.swift */,
+				78B8003B2465B07700F05FE4 /* MovieSearch-C-Bridging-Header.h */,
 			);
 			path = "View Controller";
 			sourceTree = "<group>";
@@ -123,6 +139,8 @@
 		78B800342465ACA200F05FE4 /* Model Controller */ = {
 			isa = PBXGroup;
 			children = (
+				78B800382465B04400F05FE4 /* WBBMovieController.h */,
+				78B800392465B04400F05FE4 /* WBBMovieController.m */,
 			);
 			path = "Model Controller";
 			sourceTree = "<group>";
@@ -159,6 +177,7 @@
 				TargetAttributes = {
 					78B800112465AC4A00F05FE4 = {
 						CreatedOnToolsVersion = 11.4.1;
+						LastSwiftMigration = 1140;
 					};
 				};
 			};
@@ -198,8 +217,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78B800372465AFEA00F05FE4 /* WBBMovie.m in Sources */,
 				78B800172465AC4A00F05FE4 /* AppDelegate.m in Sources */,
+				78B8003F2465B0EA00F05FE4 /* MovieTableViewCell.swift in Sources */,
+				78B8003D2465B07700F05FE4 /* MovieTableViewController.swift in Sources */,
 				78B800282465AC4A00F05FE4 /* main.m in Sources */,
+				78B8003A2465B04400F05FE4 /* WBBMovieController.m in Sources */,
 				78B8001A2465AC4A00F05FE4 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -340,6 +363,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "MovieSearch-C/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -348,6 +372,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.WBB.MovieSearch-C";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MovieSearch-C/Controllers/View Controller/MovieSearch-C-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -356,6 +383,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "MovieSearch-C/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -364,6 +392,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.WBB.MovieSearch-C";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MovieSearch-C/Controllers/View Controller/MovieSearch-C-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
