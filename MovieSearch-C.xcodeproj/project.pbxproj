@@ -71,7 +71,7 @@
 			children = (
 				78B800322465AC8D00F05FE4 /* Helpers */,
 				78B800312465AC8600F05FE4 /* Controllers */,
-				78B800302465AC7F00F05FE4 /* Models */,
+				78B800302465AC7F00F05FE4 /* Model */,
 				78B8002F2465AC7800F05FE4 /* Views */,
 				78B8002E2465AC6000F05FE4 /* Resources */,
 			);
@@ -102,13 +102,13 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		78B800302465AC7F00F05FE4 /* Models */ = {
+		78B800302465AC7F00F05FE4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				78B800352465AFEA00F05FE4 /* WBBMovie.h */,
 				78B800362465AFEA00F05FE4 /* WBBMovie.m */,
 			);
-			path = Models;
+			path = Model;
 			sourceTree = "<group>";
 		};
 		78B800312465AC8600F05FE4 /* Controllers */ = {

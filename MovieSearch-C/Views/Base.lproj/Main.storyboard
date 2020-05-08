@@ -20,7 +20,7 @@
                             <textInputTraits key="textInputTraits"/>
                         </searchBar>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="175" id="Znn-Fc-cSG" customClass="MovieTableViewCell" customModule="MovieSearch_C" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="movieCell" rowHeight="175" id="Znn-Fc-cSG" customClass="MovieTableViewCell" customModule="MovieSearch_C" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="72" width="414" height="175"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Znn-Fc-cSG" id="EOQ-x9-NtW">
@@ -81,6 +81,9 @@
                             <outlet property="delegate" destination="KBR-eu-jQw" id="uSq-md-Zr7"/>
                         </connections>
                     </tableView>
+                    <connections>
+                        <outlet property="movieSearchBar" destination="dqH-Md-iZu" id="KrC-aI-W1X"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cTQ-O8-uOn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
